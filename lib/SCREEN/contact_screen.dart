@@ -91,6 +91,7 @@ class _ContactState extends State<Contact> {
                           padding: const EdgeInsets.all(8.0),
                           child: TextFormField(
                             controller: state.textadd4,
+                            keyboardType: TextInputType.number,
                             decoration: const InputDecoration(
                               contentPadding:
                                   EdgeInsets.fromLTRB(20.0, 10.0, 20.0, 10.0),
